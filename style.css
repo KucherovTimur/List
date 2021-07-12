@@ -1,0 +1,25 @@
+.List {
+	background: #fff;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+	width: 50%;
+	margin: 50px auto 0;
+	padding: 10px;
+	border-radius: 10px;
+}
+#White {
+	list-style-type: circle;
+}
+.Out {
+	text-decoration: line-through;
+}
+h3 {
+	text-align: center;
+	line-height: 10px;
+	color: #222;
+	font-family: "Balsamiq Sans";
+}
+@media(max-width:600px){
+	.List {
+		width: 70%;
+	}
+}
